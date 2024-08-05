@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="/submit" method="post">
+
+    <label for="username">Name :  </label>
+    <input type="text" id="username" required>
+
+    <label for="country"> Country : </label>
+     <select id="country">
+        <option value="Pakistan">Pakistan</option>
+        <option value="Canada">Canada</option>
+        <option value="Europe">Europe</option>   
+     </select>
+
+    <label for="gender">Gender:</label>
+<ul>
+    <label>
+    <input type="radio" id="radiobuttons" value="Male" name="gender" checked> Male
+    </label>
+    <label>
+    <input type="radio" id="radiobuttons" value="Female" name="gender" > Female
+    </label>
+    <label>
+    <input type="radio" id="radiobuttons" value="other" > Other
+    </label>
+</ul>
+
+     <label for="hobbies">Hobbies:</label>
+    <ul>
+        <label>
+        <input type="checkbox" id="checkboxes" value="Reading" name="hobbies" > Reading
+        </label>
+        <label>
+        <input type="checkbox" id="chexkboxes" value="Sleeping" name="hobbies" > Sleeping
+        </label>
+        <label>
+        <input type="checkbox" id="checkboxes" value="Dancing" name="hobbies" > Dancing
+        </label>
+    </ul>
+
+     <label for="commentsl">Comments : </label>
+     <textarea id="comments" ></textarea>
+
+     <label for="password">Password :  </label>
+     <input type="password" id="password"><br>
+
+     <input type="submit" id="submitbutton" value="Register">
+
+</form>
+
+
+</body>
+</html>
+
+
+
+
